@@ -1,0 +1,16 @@
+My associate id:
+
+844574
+
+Other team members:
+
+844583, 844507,844556,844554
+
+Team lead:
+
+844507
+
+My Role in team:
+
+1. To develop place appointment page by using bootstrap
+
