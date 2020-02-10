@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Fitness Trainer Page </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-sm-6">
+                    <label>First Name</label>
+                    <input type="text" id="fname" placeholder="Enter First Name Here.." class="form-control">
+             </div>
+            <div class="col-sm-6">
+                <label>Last Name</label>
+                <input type="text" id="lname"placeholder="Enter Last Name Here.." class="form-control">
+            </div>
+        </div>
+  
+        <div class="row mt-3">
+            <div class="col-sm-2 form-group">
+                <label>Age</label>
+                <input type="number" id="age" placeholder="Enter Age Here.." class="form-control">
+            </div>		
+            <div class="col-sm-3 form-group">
+                <label>Email Address</label>
+                <input type="text" id="email" placeholder="Enter Email Address Here.." class="form-control">
+            </div>	
+            <div class="col-sm form-group">
+                <label>Phone number</label>
+               
+                <input  type="text" id=" first" size="1" maxlength="1" autofocus/>     
+                <input type="text" id=" second" size="1" maxlength="1" autofocus/>
+                <input type="text" id=" third" size="1" maxlength="1"  autofocus />
+                <input type="text" id="fourth" size="1" maxlength="1" autofocus/> 
+                <input type="text" id=" fifth" size="1" maxlength="1" autofocus/>     
+                <input type="text" id=" sixth" size="1" maxlength="1" autofocus/>
+                <input type="text" id=" seventh" size="1" maxlength="1" autofocus/>
+                <input type="text" id="eigth" size="1" maxlength="1" autofocus/> 
+                <input type="text" id=" ninth" size="1" maxlength="1" autofocus/>
+                <input type="text" id="tenth" size="1" maxlength="1" autofocus/>
+            </div>		
+        </div>	
+        <form>
+            <div class="form-group">
+            <fieldset class="border" border-dark>
+              <legend>Address:</legend>	
+              <div class="form-group">
+                  <label>Street Address</label>
+                  <textarea placeholder="Enter Address Here.." class="form-control"></textarea>
+              </div>	
+              <div class="row">
+                <div class="col-sm-4 form-group">
+                    <label>City</label>
+                    <input type="text" id="city" placeholder="Enter City Name Here.." class="form-control">
+                </div>	
+                <div class="col-sm-4 form-group">
+                    <label>State</label>
+                    <input type="text" id="state" placeholder="Enter State Name Here.." class="form-control">
+                </div>	
+                <div class="col-sm-4 form-group">
+                    <label>Country</label>
+
+                    <input type="text" id="country" placeholder="Enter Country Here.." class="form-control">
+                </div>		
+        
+            <div class="row">
+                <div class="offset-1 col-sm-11 form-group">
+                    <label>Pincode</label>
+                    <input type="text" id="pcode" placeholder="Enter Pincode Here.." class="form-control ">
+                 </div>	
+            </div>
+        </fieldset>
+        <div class="row">
+        
+                <label>Trainer Preference:</label>
+            </div> 
+            <div >
+                <br>
+            
+                <input type="radio" id="Male"     name="gender" value="male"> Male Trainer<br>
+                <input type="radio" id="FeMale"   name="gender" value="female"> Female Trainer<br>
+                <input type="radio" id="None"     name="None"   value="Nopreference"> No preference<br>
+                <input type="radio" id="Tname"    name="Trainername" value="Trainername"  class="form-control" onclick="EnableDisableTextBox()">Trainer name <input type="text" id="Tn" name="Trainername" disabled="disabled"/> 
+                <input type="radio" name="Others"  id=" Others" value="other" class="form-control" onclick="EnableDisableTextBox()">Others <input type="text" id="Ot" name="Others" disabled="disabled"/>  
+                
+            </div>
+            </div>
+            <br>
+            <div class="row">
+                <label>Do you need physiotherapist</label>
+                <label class="checkbox-inline">
+                    <input type="radio" value="Yes" name="radio">Yes
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="radio" value="No" name="radio">No
+                  </label>
+            </div>				
+    </form>                                     
+</body>
+</html>
+
+
+
+
+
